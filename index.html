@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+         <a href="#home">  
+            <span>&lt;</span>
+            <span class="name">Ngugi</span>
+            <span>&gt;</span>
+         </a>
+        </h1>
+
+        <nav class="nav-bar">
+            <ul>
+                <li class="home"><a href="#home">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#my-projects">My projects</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+            <button class="contact"><a href="#contact-me">Contact me &#8599;</a></button>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content-home">
+            <div class="image-container">
+                <img src="./Images/istockphoto-870079648-170667a.jpg" class="profile-img" alt="">
+            </div>
+            <h3>I'm <span>Jeshurun Muchugi</span></h3>
+            <h1>Aspiring Web Developer & Campus Student In Moringa</h1>
+            <p>I am an Aspiring Fullstack Web developer, with 1 year of experience in coding in HTML,CSS and Javascript</p>
+            <div class="buttons">
+                <button class="hire">Hire Me</button>
+                <button class="work">My Work</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <div class="container-about">
+            <div class="about-img">
+                <img src="./Images/istockphoto-870079648-170667a.jpg" class="img-about" alt="">
+            </div>
+            <div class="about-info">
+                <h4>-About Me</h4>
+                <h1>Who is Jeshurun Muchugi?</h1>
+                <p>
+                    I’m a student passionate about web development, currently learning how to build modern, responsive websites using HTML, CSS, JavaScript, and more. I love turning ideas into real, interactive experiences online.
+                    Right now, I’m focused on improving my frontend skills and gradually exploring backend development. 
+                <div class="sub-info">
+                    <div class="box-1">
+                        <h3>Education</h3>
+                        <h6>Highschool education and coding bootcamp</h6>
+                    </div>
+                    <div class="box-2">
+                        <h3>Languages</h3>
+                        <h6>I am proficient in HTML,CSS and Javascript</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="projects-section" id="my-projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio to showcase my skills, experience, and projects.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+    
+          <div class="project-card">
+            <h3>Task Manager App</h3>
+            <p>A simple task tracking app with priority filters and persistent local storage.</p>
+            <p><strong>Tech:</strong> Html,Css and Javascript</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="contact-me">
+        <h4>Connect with me</h4>
+        <h1>Get in Touch</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima officiis
+             iusto nam laboriosam illum hic perspiciatis maxime, 
+            pti alias nobis. Dolorum, exercitationem.</p>
+
+            <div class="form-area">
+                <form action="#" method="post">
+                    <div class="inputs">
+                        <input type="text" id="name" placeholder="Enter your name" name="name" required />
+                        <input type="email" id="email" placeholder="Enter your email"  name="email" required />
+                    </div>
+                    <textarea id="message" name="message" placeholder="Enter your message"  rows="5" required></textarea>
+                    <button type="submit" class="submit">Send Message</button>
+                  </form>
+            </div>
+    </section>
+</body>
+</html>
